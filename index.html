@@ -1,46 +1,55 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Tarea #2</title>
-  </head>
-  <body>
-    <div class="container">
-      <section class="menu">
-        <button id="bold">B</button>
-        <button id="italic">I</button>
-        <select name="font-size" id="size">
-          <option value="8pts">8</option>
-          <option value="10pts">10</option>
-          <option value="12pts" selected>12</option>
-          <option value="14pts">14</option>
-          <option value="18pts">18</option>
-          <option value="24pts">24</option>
-          <option value="30pts">30</option>
-        </select>
-      </section>
-      <table>
-        <tr>
-          <th></th>
-          <th>A</th>
-          <th>B</th>
-          <th>C</th>
-          <th>D</th>
-          <th>E</th>
-          <th>F</th>
-          <th>G</th>
-          <th>H</th>
-          <th>I</th>
-          <th>J</th>
-          <th>K</th>
-          <th>L</th>
-          <th>M</th>
-          <th>N</th>
-          <th>Ñ</th>
-          <th rowspan="11" class="add" id="">+</th>
-        </tr>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Tarea #2</title>
+</head>
+
+<body>
+  <div class="container">
+    <section class="menu">
+      <button id="bold">B</button>
+      <button id="italic">I</button>
+      <select name="font-size" id="size">
+        <option value="8pts">8</option>
+        <option value="10pts">10</option>
+        <option value="12pts" selected>12</option>
+        <option value="14pts">14</option>
+        <option value="18pts">18</option>
+        <option value="24pts">24</option>
+        <option value="30pts">30</option>
+      </select>
+    </section>
+
+    <!--Botones para agregar columnas y filas-->
+    <button>+</button>
+    <button>+</button>
+
+    <table>
+      <tbody>
+        <thead>
+          <tr>
+            <th></th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+            <th>H</th>
+            <th>I</th>
+            <th>J</th>
+            <th>K</th>
+            <th>L</th>
+            <th>M</th>
+            <th>N</th>
+            <th>Ñ</th>
+          </tr>
+        </thead>
 
         <tr>
           <th>1</th>
@@ -223,13 +232,11 @@
           <td contenteditable="true"></td>
         </tr>
 
-        <tr>
-          <th colspan="16" class="add" id="">+</th>
-        </tr>
-        
-      </table>
-    </div>
+      </tbody>
+    </table>
+  </div>
 
-    <script src="js/script.js"></script>
-  </body>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
