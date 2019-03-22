@@ -1,12 +1,15 @@
 button {
   position: absolute;
-  width: 5%; }
+  width: 5%;
+}
 
 html {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 table {
-  text-align: center; }
+  text-align: center;
+}
 
 th,
 td {
@@ -14,36 +17,63 @@ td {
   border-radius: 5px;
   background-color: pink;
   height: 50px;
-  width: 80px; }
+  width: 80px;
+}
 
 th {
   background-color: gray;
   color: white;
-  border: none; }
+  border: none;
+}
 
 .add {
-  background-color: rgba(170, 170, 170, 0.842); }
+  background-color: rgba(170, 170, 170, 0.842);
+}
 
 .menu {
   background-color: rgba(170, 170, 170, 0.842);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  width: 95%; }
+  width: 95%;
+}
 
 #bold {
   color: gray;
   font-weight: bold;
-  left: 79%; }
+  left: 78%;
+}
+
+#column-vertical {
+  background-color: rgba(170, 170, 170, 0.842);
+  border-radius: 5px;
+  color: white;
+  height: 519px;
+  left: 1360px;
+  top: 131px;
+  width: 50px;
+}
+
+#column-horizontal {
+  background-color: rgba(170, 170, 170, 0.842);
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  left: 95px;
+  top: 658px;
+  width: 1258px;
+}
 
 #italic {
   color: gray;
-  left: 85%; }
+  left: 84%;
+}
 
 #size {
   color: gray;
   position: relative;
   left: 93%;
-  width: 6%; }
+  width: 6%;
+}
 
 /*# sourceMappingURL=styles.css.map */
